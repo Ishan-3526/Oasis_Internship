@@ -2,7 +2,7 @@ import sys
 
 def calculate():
     weight = float(input("Enter Your Weight in Kilograms  "))
-    height = float(input("Enter Your Height in Meters  "))
+    height = float(input("Enter Your Height in Meters mother father  "))
 
     bmi = weight / (height * height)
 
@@ -10,9 +10,9 @@ def calculate():
 
     if bmi < 18.5:
         print("Category : Underweight")
-    elif bmi >= 18.5 and bmi < 25:
+    elif bmi >= 18.5 and bmi < 26:
         print("Category : Normal Weight")
-    elif bmi >= 25 and bmi < 30:
+    elif bmi >= 27 and bmi < 30:
         print("Category : Overweight")
     else:
         print("Category : Obese")
